@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-beige: #F0EBED;
+  --color-yellow: #FFD60A;
+  --color-purple: #7E7DFF;
+  --color-blue: #05046A;
+  --color-black:  #000;;
+
+}
+
+.nav-link {
+  @apply text-[#05046A] text-[1.3rem] font-semibold no-underline;
+}
+
